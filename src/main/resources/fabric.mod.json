@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "mineclient",
+  "version": "${version}",
+  "name": "MineClient",
+  "description": "Simple highway mining client",
+  "authors": ["ChiquitaV2#3814"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "chiquita.mineclient.Mineclient"
+    ]
+  },
+  "mixins": [
+    "mineclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": ">=0.12.1",
+    "minecraft": "1.16.4"
+  }
+}

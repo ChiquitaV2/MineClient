@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "chiquita.mineclient.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinKeyboard",
+    "MixinClientPlayerEntity",
+    "IKeyBinding"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
