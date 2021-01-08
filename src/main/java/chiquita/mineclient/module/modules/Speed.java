@@ -1,3 +1,4 @@
+/*
 package chiquita.mineclient.module.modules;
 
 import chiquita.mineclient.event.EventTick;
@@ -51,3 +52,5 @@ public class Speed extends Module {
         }
     });
 }
+
+ */

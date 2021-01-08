@@ -22,7 +22,6 @@ public class ModuleManager extends Object implements Listenable {
         Mineclient.eventBus.subscribe(Mineclient.getModuleManager());
         add(new Yaw());
         add(new OffAxisAlarm());
-        add(new Speed());
         add(new Nuker());
         add(new HotbarCache());
         add(new AutoSwitcher());
