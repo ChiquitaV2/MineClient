@@ -15,10 +15,5 @@
   },
   "mixins": [
     "mineclient.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=0.11.0",
-    "fabric": ">=0.12.1",
-    "minecraft": "1.16.4"
-  }
+  ]
 }
